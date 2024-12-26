@@ -1,0 +1,28 @@
+{
+    "name": "zru/zru-php",
+    "description": "PHP library for the ZRU API.",
+    "version": "1.0.0",
+    "keywords": ["zru", "pay", "rest", "sdk", "api", "payments"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/zrupay/zru-php",
+    "authors": [
+        {
+            "name": "ZRU",
+            "homepage": "https://www.zrupay.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ZRU": "src/"
+        }
+    }
+}
